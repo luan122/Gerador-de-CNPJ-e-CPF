@@ -110,7 +110,11 @@ namespace Gerador_de_CNPJ
 
         private void btnCriar_Click(object sender, EventArgs e)
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CPF_CNPJ_Generator));
+            if(chkbClear.Checked == true)
+            {
+                btnLimpar.PerformClick();
+            }
+            //System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CPF_CNPJ_Generator));
             if (cmbTipo.Text == "CNPJ")
             {
                 if (cmbModelo.Text == Resources.Strings.Mask1)

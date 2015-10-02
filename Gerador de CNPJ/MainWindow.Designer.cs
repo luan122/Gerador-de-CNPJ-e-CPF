@@ -41,6 +41,7 @@
             this.cmbLinguas = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.chkbClear = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -106,9 +107,9 @@
             // 
             // cmbLinguas
             // 
+            resources.ApplyResources(this.cmbLinguas, "cmbLinguas");
             this.cmbLinguas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbLinguas.FormattingEnabled = true;
-            resources.ApplyResources(this.cmbLinguas, "cmbLinguas");
             this.cmbLinguas.Name = "cmbLinguas";
             this.cmbLinguas.SelectionChangeCommitted += new System.EventHandler(this.cmbLinguas_SelectionChangeCommitted);
             // 
@@ -123,10 +124,17 @@
             this.label5.Name = "label5";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // chkbClear
+            // 
+            resources.ApplyResources(this.chkbClear, "chkbClear");
+            this.chkbClear.Name = "chkbClear";
+            this.chkbClear.UseVisualStyleBackColor = true;
+            // 
             // CPF_CNPJ_Generator
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.chkbClear);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cmbLinguas);
@@ -160,6 +168,7 @@
         private System.Windows.Forms.ComboBox cmbLinguas;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.CheckBox chkbClear;
     }
 }
 
