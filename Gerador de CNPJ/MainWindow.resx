@@ -213,6 +213,24 @@
   <data name="&gt;&gt;btGenerate.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="tgMask.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tgMask.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="tgMask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 0</value>
+  </data>
+  <data name="tgMask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 25</value>
+  </data>
+  <data name="tgMask.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="tgMask.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
   <data name="&gt;&gt;tgMask.Name" xml:space="preserve">
     <value>tgMask</value>
   </data>
@@ -224,6 +242,24 @@
   </data>
   <data name="&gt;&gt;tgMask.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="lbMask.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lbMask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbMask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 25</value>
+  </data>
+  <data name="lbMask.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lbMask.Text" xml:space="preserve">
+    <value>Máscara:</value>
+  </data>
+  <data name="lbMask.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;lbMask.Name" xml:space="preserve">
     <value>lbMask</value>
@@ -272,9 +308,6 @@
   </data>
   <data name="resource.TabIndex1" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="resource.Visible1" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="txQuantidade.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
@@ -350,147 +383,6 @@
   </data>
   <data name="&gt;&gt;metroPanel3.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;lbType.Name" xml:space="preserve">
-    <value>lbType</value>
-  </data>
-  <data name="&gt;&gt;lbType.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbType.Parent" xml:space="preserve">
-    <value>metroPanel1</value>
-  </data>
-  <data name="&gt;&gt;lbType.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;rbTypeCPF.Name" xml:space="preserve">
-    <value>rbTypeCPF</value>
-  </data>
-  <data name="&gt;&gt;rbTypeCPF.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;rbTypeCPF.Parent" xml:space="preserve">
-    <value>metroPanel1</value>
-  </data>
-  <data name="&gt;&gt;rbTypeCPF.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;rbTypeCNPJ.Name" xml:space="preserve">
-    <value>rbTypeCNPJ</value>
-  </data>
-  <data name="&gt;&gt;rbTypeCNPJ.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;rbTypeCNPJ.Parent" xml:space="preserve">
-    <value>metroPanel1</value>
-  </data>
-  <data name="&gt;&gt;rbTypeCNPJ.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="metroPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="metroPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 31</value>
-  </data>
-  <data name="metroPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;metroPanel1.Name" xml:space="preserve">
-    <value>metroPanel1</value>
-  </data>
-  <data name="&gt;&gt;metroPanel1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroPanel1.Parent" xml:space="preserve">
-    <value>pnMain</value>
-  </data>
-  <data name="&gt;&gt;metroPanel1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pnMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pnMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 60</value>
-  </data>
-  <data name="pnMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>342, 68</value>
-  </data>
-  <data name="pnMain.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;pnMain.Name" xml:space="preserve">
-    <value>pnMain</value>
-  </data>
-  <data name="&gt;&gt;pnMain.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;pnMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnMain.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tgMask.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tgMask.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="tgMask.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 0</value>
-  </data>
-  <data name="tgMask.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 25</value>
-  </data>
-  <data name="tgMask.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="tgMask.Text" xml:space="preserve">
-    <value>Off</value>
-  </data>
-  <data name="&gt;&gt;tgMask.Name" xml:space="preserve">
-    <value>tgMask</value>
-  </data>
-  <data name="&gt;&gt;tgMask.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;tgMask.Parent" xml:space="preserve">
-    <value>metroPanel4</value>
-  </data>
-  <data name="&gt;&gt;tgMask.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lbMask.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="lbMask.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lbMask.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 25</value>
-  </data>
-  <data name="lbMask.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="lbMask.Text" xml:space="preserve">
-    <value>Máscara:</value>
-  </data>
-  <data name="lbMask.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;lbMask.Name" xml:space="preserve">
-    <value>lbMask</value>
-  </data>
-  <data name="&gt;&gt;lbMask.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbMask.Parent" xml:space="preserve">
-    <value>metroPanel4</value>
-  </data>
-  <data name="&gt;&gt;lbMask.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="lbType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -582,134 +474,50 @@
   <data name="&gt;&gt;rbTypeCNPJ.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;pnLanguage.Name" xml:space="preserve">
-    <value>pnLanguage</value>
+  <data name="metroPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
-  <data name="&gt;&gt;pnLanguage.Type" xml:space="preserve">
+  <data name="metroPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 31</value>
+  </data>
+  <data name="metroPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;metroPanel1.Name" xml:space="preserve">
+    <value>metroPanel1</value>
+  </data>
+  <data name="&gt;&gt;metroPanel1.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;pnLanguage.Parent" xml:space="preserve">
-    <value>metroPanel2</value>
+  <data name="&gt;&gt;metroPanel1.Parent" xml:space="preserve">
+    <value>pnMain</value>
   </data>
-  <data name="&gt;&gt;pnLanguage.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;metroPanel1.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;btClipboard.Name" xml:space="preserve">
-    <value>btClipboard</value>
+  <data name="pnMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;btClipboard.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="pnMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 60</value>
   </data>
-  <data name="&gt;&gt;btClipboard.Parent" xml:space="preserve">
-    <value>metroPanel2</value>
+  <data name="pnMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 68</value>
   </data>
-  <data name="&gt;&gt;btClipboard.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="pnMain.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="metroPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="&gt;&gt;pnMain.Name" xml:space="preserve">
+    <value>pnMain</value>
   </data>
-  <data name="metroPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 366</value>
-  </data>
-  <data name="metroPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>342, 19</value>
-  </data>
-  <data name="metroPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;metroPanel2.Name" xml:space="preserve">
-    <value>metroPanel2</value>
-  </data>
-  <data name="&gt;&gt;metroPanel2.Type" xml:space="preserve">
+  <data name="&gt;&gt;pnMain.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;metroPanel2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pnMain.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;metroPanel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btClipboard.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btClipboard.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="btClipboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 0</value>
-  </data>
-  <data name="btClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 19</value>
-  </data>
-  <data name="btClipboard.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="btClipboard.Text" xml:space="preserve">
-    <value>Copiar para a área de transferência</value>
-  </data>
-  <data name="btClipboard.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;btClipboard.Name" xml:space="preserve">
-    <value>btClipboard</value>
-  </data>
-  <data name="&gt;&gt;btClipboard.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;btClipboard.Parent" xml:space="preserve">
-    <value>metroPanel2</value>
-  </data>
-  <data name="&gt;&gt;btClipboard.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btLanguageEN.Name" xml:space="preserve">
-    <value>btLanguageEN</value>
-  </data>
-  <data name="&gt;&gt;btLanguageEN.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;btLanguageEN.Parent" xml:space="preserve">
-    <value>pnLanguage</value>
-  </data>
-  <data name="&gt;&gt;btLanguageEN.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btLanguagePT.Name" xml:space="preserve">
-    <value>btLanguagePT</value>
-  </data>
-  <data name="&gt;&gt;btLanguagePT.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;btLanguagePT.Parent" xml:space="preserve">
-    <value>pnLanguage</value>
-  </data>
-  <data name="&gt;&gt;btLanguagePT.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pnLanguage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="pnLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 19</value>
-  </data>
-  <data name="pnLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;pnLanguage.Name" xml:space="preserve">
-    <value>pnLanguage</value>
-  </data>
-  <data name="&gt;&gt;pnLanguage.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;pnLanguage.Parent" xml:space="preserve">
-    <value>metroPanel2</value>
-  </data>
-  <data name="&gt;&gt;pnLanguage.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;pnMain.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btLanguageEN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -764,6 +572,87 @@
   </data>
   <data name="&gt;&gt;btLanguagePT.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="pnLanguage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 19</value>
+  </data>
+  <data name="pnLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;pnLanguage.Name" xml:space="preserve">
+    <value>pnLanguage</value>
+  </data>
+  <data name="&gt;&gt;pnLanguage.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pnLanguage.Parent" xml:space="preserve">
+    <value>metroPanel2</value>
+  </data>
+  <data name="&gt;&gt;pnLanguage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btClipboard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btClipboard.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btClipboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 0</value>
+  </data>
+  <data name="btClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 19</value>
+  </data>
+  <data name="btClipboard.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btClipboard.Text" xml:space="preserve">
+    <value>Copiar para a área de transferência</value>
+  </data>
+  <data name="btClipboard.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btClipboard.Name" xml:space="preserve">
+    <value>btClipboard</value>
+  </data>
+  <data name="&gt;&gt;btClipboard.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btClipboard.Parent" xml:space="preserve">
+    <value>metroPanel2</value>
+  </data>
+  <data name="&gt;&gt;btClipboard.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="metroPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="metroPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 366</value>
+  </data>
+  <data name="metroPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 19</value>
+  </data>
+  <data name="metroPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;metroPanel2.Name" xml:space="preserve">
+    <value>metroPanel2</value>
+  </data>
+  <data name="&gt;&gt;metroPanel2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroPanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -158,5 +158,6 @@ namespace Gerador_de_CNPJ
             x++;
             txQuantidade.Text = x.ToString();
         }
+
     }
 }

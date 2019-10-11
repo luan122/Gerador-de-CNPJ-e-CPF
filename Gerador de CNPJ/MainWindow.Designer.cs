@@ -44,10 +44,10 @@
             this.rbTypeCPF = new MetroFramework.Controls.MetroRadioButton();
             this.rbTypeCNPJ = new MetroFramework.Controls.MetroRadioButton();
             this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
-            this.btClipboard = new MetroFramework.Controls.MetroButton();
             this.pnLanguage = new MetroFramework.Controls.MetroPanel();
             this.btLanguageEN = new MetroFramework.Controls.MetroButton();
             this.btLanguagePT = new MetroFramework.Controls.MetroButton();
+            this.btClipboard = new MetroFramework.Controls.MetroButton();
             this.pnMain.SuspendLayout();
             this.metroPanel4.SuspendLayout();
             this.metroPanel3.SuspendLayout();
@@ -165,7 +165,6 @@
             this.txQuantidade.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex1")));
             this.txQuantidade.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txQuantidade.CustomButton.UseSelectable = true;
-            this.txQuantidade.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible1")));
             resources.ApplyResources(this.txQuantidade, "txQuantidade");
             this.txQuantidade.Lines = new string[0];
             this.txQuantidade.MaxLength = 32767;
@@ -232,13 +231,6 @@
             this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel2.VerticalScrollbarSize = 10;
             // 
-            // btClipboard
-            // 
-            resources.ApplyResources(this.btClipboard, "btClipboard");
-            this.btClipboard.Name = "btClipboard";
-            this.btClipboard.UseSelectable = true;
-            this.btClipboard.Click += new System.EventHandler(this.btClipboard_Click);
-            // 
             // pnLanguage
             // 
             this.pnLanguage.Controls.Add(this.btLanguageEN);
@@ -257,12 +249,21 @@
             resources.ApplyResources(this.btLanguageEN, "btLanguageEN");
             this.btLanguageEN.Name = "btLanguageEN";
             this.btLanguageEN.UseSelectable = true;
+            this.btLanguageEN.Click += new System.EventHandler(this.btLanguageEN_Click);
             // 
             // btLanguagePT
             // 
             resources.ApplyResources(this.btLanguagePT, "btLanguagePT");
             this.btLanguagePT.Name = "btLanguagePT";
             this.btLanguagePT.UseSelectable = true;
+            this.btLanguagePT.Click += new System.EventHandler(this.btLanguagePT_Click);
+            // 
+            // btClipboard
+            // 
+            resources.ApplyResources(this.btClipboard, "btClipboard");
+            this.btClipboard.Name = "btClipboard";
+            this.btClipboard.UseSelectable = true;
+            this.btClipboard.Click += new System.EventHandler(this.btClipboard_Click);
             // 
             // CPF_CNPJ_Generator
             // 
