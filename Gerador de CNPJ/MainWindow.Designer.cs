@@ -107,9 +107,9 @@
             // 
             // cmbLinguas
             // 
-            resources.ApplyResources(this.cmbLinguas, "cmbLinguas");
             this.cmbLinguas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbLinguas.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbLinguas, "cmbLinguas");
             this.cmbLinguas.Name = "cmbLinguas";
             this.cmbLinguas.SelectionChangeCommitted += new System.EventHandler(this.cmbLinguas_SelectionChangeCommitted);
             // 
