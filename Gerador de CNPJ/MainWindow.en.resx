@@ -121,7 +121,7 @@
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 13</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="lbType.Text" xml:space="preserve">
     <value>Type:</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
@@ -130,7 +130,7 @@
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 13</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
+  <data name="lbQuantity.Text" xml:space="preserve">
     <value>Quantity:</value>
   </data>
   <data name="btnCriar.Text" xml:space="preserve">
@@ -142,23 +142,14 @@
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 13</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Model:</value>
-  </data>
-  <data name="cmbModelo.Items" xml:space="preserve">
-    <value>Without mask</value>
-  </data>
-  <data name="cmbModelo.Items1" xml:space="preserve">
-    <value>With mask</value>
+  <data name="lbMask.Text" xml:space="preserve">
+    <value>Mask:</value>
   </data>
   <data name="cmbLinguas.Location" type="System.Drawing.Point, System.Drawing">
     <value>86, 7</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 13</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Language:</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 15</value>
@@ -169,10 +160,10 @@
   <data name="chkbClear.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 17</value>
   </data>
-  <data name="chkbClear.Text" xml:space="preserve">
-    <value>Auto clean</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>CNPJ/CPF Generator</value>
+  </data>
+  <data name="btClipboard.Text" xml:space="preserve">
+    <value>Copy to clipboard</value>
   </data>
 </root>

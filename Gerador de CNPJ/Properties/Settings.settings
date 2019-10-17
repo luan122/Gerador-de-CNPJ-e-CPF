@@ -2,7 +2,7 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Gerador_de_CNPJ.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="Lingua" Type="System.String" Scope="User">
+    <Setting Name="Language" Type="System.String" Scope="User">
       <Value Profile="(Default)">pt-BR</Value>
     </Setting>
   </Settings>
