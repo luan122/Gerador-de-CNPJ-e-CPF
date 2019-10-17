@@ -48,6 +48,7 @@
             this.btLanguageEN = new MetroFramework.Controls.MetroButton();
             this.btLanguagePT = new MetroFramework.Controls.MetroButton();
             this.btClipboard = new MetroFramework.Controls.MetroButton();
+            this.metroProgressSpinner1 = new MetroFramework.Controls.MetroProgressSpinner();
             this.pnMain.SuspendLayout();
             this.metroPanel4.SuspendLayout();
             this.metroPanel3.SuspendLayout();
@@ -94,6 +95,7 @@
             // 
             // pnMain
             // 
+            this.pnMain.Controls.Add(this.metroProgressSpinner1);
             this.pnMain.Controls.Add(this.btGenerate);
             this.pnMain.Controls.Add(this.metroPanel4);
             this.pnMain.Controls.Add(this.metroPanel3);
@@ -165,6 +167,7 @@
             this.txQuantidade.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex1")));
             this.txQuantidade.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txQuantidade.CustomButton.UseSelectable = true;
+            this.txQuantidade.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible1")));
             resources.ApplyResources(this.txQuantidade, "txQuantidade");
             this.txQuantidade.Lines = new string[0];
             this.txQuantidade.MaxLength = 32767;
@@ -175,12 +178,10 @@
             this.txQuantidade.SelectionLength = 0;
             this.txQuantidade.SelectionStart = 0;
             this.txQuantidade.ShortcutsEnabled = true;
-            this.txQuantidade.ShowButton = true;
             this.txQuantidade.UseSelectable = true;
             this.txQuantidade.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txQuantidade.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.txQuantidade.ButtonClick += new MetroFramework.Controls.MetroTextBox.ButClick(this.txQuantidade_Click);
-            this.txQuantidade.Click += new System.EventHandler(this.txQuantidade_Click);
             // 
             // lbQuantity
             // 
@@ -265,6 +266,13 @@
             this.btClipboard.UseSelectable = true;
             this.btClipboard.Click += new System.EventHandler(this.btClipboard_Click);
             // 
+            // metroProgressSpinner1
+            // 
+            resources.ApplyResources(this.metroProgressSpinner1, "metroProgressSpinner1");
+            this.metroProgressSpinner1.Maximum = 100;
+            this.metroProgressSpinner1.Name = "metroProgressSpinner1";
+            this.metroProgressSpinner1.UseSelectable = true;
+            // 
             // CPF_CNPJ_Generator
             // 
             this.AcceptButton = this.btGenerate;
@@ -312,6 +320,7 @@
         private MetroFramework.Controls.MetroPanel pnLanguage;
         private MetroFramework.Controls.MetroButton btLanguageEN;
         private MetroFramework.Controls.MetroButton btLanguagePT;
+        private MetroFramework.Controls.MetroProgressSpinner metroProgressSpinner1;
     }
 }
 

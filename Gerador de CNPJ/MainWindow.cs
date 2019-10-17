@@ -93,7 +93,7 @@ namespace Gerador_de_CNPJ
             rbTypeCNPJ.Checked = true;
             txQuantidade.Text = 1.ToString();
             txQuantidade.Focus();
-
+            metroProgressSpinner1.Visible = false;
         }
 
         public CPF_CNPJ_Generator()
@@ -102,18 +102,41 @@ namespace Gerador_de_CNPJ
             InitializeComponent();
         }
 
+        public void UpdateUI(string content) {
+            rtbResultado.Text = content;
+            rtbResultado.Enabled = true;
+            btGenerate.Enabled = true;
+            metroProgressSpinner1.Visible = false;
+        }
+        public async void AsyncOperation(Func<string> func)
+        {
+            try
+            {
+                rtbResultado.Clear();
+                rtbResultado.Enabled = false;
+                btGenerate.Enabled = false;
+                metroProgressSpinner1.Visible = true;
+                string t = await Task.Run(func);
+                UpdateUI(t);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
         private void btGenerate_Click(object sender, EventArgs e)
         {
             if (rbTypeCNPJ.Checked)
             {
                 if (!tgMask.Checked)
                 {
-                    rtbResultado.Text = generator.CnpjSemMascara(Convert.ToInt32(txQuantidade.Text));
+                    AsyncOperation(() => generator.CnpjSemMascara(Convert.ToInt32(txQuantidade.Text)));
                     return;
                 }
                 else if (tgMask.Checked)
                 {
-                    rtbResultado.Text = generator.CnpjComMascara(Convert.ToInt32(txQuantidade.Text));
+                    AsyncOperation(() => generator.CnpjComMascara(Convert.ToInt32(txQuantidade.Text)));
                     return;
                 }
                 else
@@ -126,12 +149,12 @@ namespace Gerador_de_CNPJ
             {
                 if (!tgMask.Checked)
                 {
-                    rtbResultado.Text = generator.CpfSemMascara(Convert.ToInt32(txQuantidade.Text));
+                    AsyncOperation(() => generator.CpfSemMascara(Convert.ToInt32(txQuantidade.Text)));
                     return;
                 }
                 else if (tgMask.Checked)
                 {
-                    rtbResultado.Text = generator.CpfComMascara(Convert.ToInt32(txQuantidade.Text));
+                    AsyncOperation(() => generator.CpfComMascara(Convert.ToInt32(txQuantidade.Text)));
                     return;
                 }
                 else
@@ -147,9 +170,16 @@ namespace Gerador_de_CNPJ
             }
         }
 
+        private Action<Task<string>> OnWorkCompleted(string result)
+        {
+            rtbResultado.Text = result;
+            return null;
+        }
+
         private void btClipboard_Click(object sender, EventArgs e)
         {
-            Clipboard.SetText(rtbResultado.Text);
+            if (rtbResultado.Enabled)
+                Clipboard.SetText(rtbResultado.Text);
         }
 
         private void txQuantidade_Click(object sender, EventArgs e)

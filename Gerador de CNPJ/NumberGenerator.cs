@@ -32,7 +32,7 @@ namespace Gerador_de_CNPJ
                     } while (numero[i] > 9 || numero[i] < 0);
                 }
                 //*==========================================*
-                //|       Primeiro digito veridicador        |
+                //|       Primeiro digito verificador        |
                 //*==========================================*
                 soma1 = ((numero[1] * 10) +
                       (numero[2] * 9) +
@@ -49,7 +49,7 @@ namespace Gerador_de_CNPJ
                 dig1 = (11 - parte3);
                 if (dig1 > 9) dig1 = 0;
                 //*==========================================*
-                //|        Segundo digito veridicador        |
+                //|        Segundo digito verificador        |
                 //*==========================================*
                 soma2 = ((numero[1] * 11) +
                       (numero[2] * 10) +
@@ -100,7 +100,7 @@ namespace Gerador_de_CNPJ
                     } while (numero[i] > 9 || numero[i] < 0);
                 }
                 //*==========================================*
-                //|       Primeiro digito veridicador        |
+                //|       Primeiro digito verificador        |
                 //*==========================================*
                 soma1 = ((numero[1] * 10) +
                       (numero[2] * 9) +
@@ -117,7 +117,7 @@ namespace Gerador_de_CNPJ
                 dig1 = (11 - parte3);
                 if (dig1 > 9) dig1 = 0;
                 //*==========================================*
-                //|        Segundo digito veridicador        |
+                //|        Segundo digito verificador        |
                 //*==========================================*
                 soma2 = ((numero[1] * 11) +
                       (numero[2] * 10) +
@@ -162,7 +162,7 @@ namespace Gerador_de_CNPJ
                 numero[11] = 0;
                 numero[12] = (rand.Next()) % 9;
                 //*==========================================*
-                //|       Primeiro digito veridicador        |
+                //|       Primeiro digito verificador        |
                 //*==========================================*
                 soma1 = ((numero[1] * 5) +
                       (numero[2] * 4) +
@@ -182,7 +182,7 @@ namespace Gerador_de_CNPJ
                 dig1 = (11 - parte3);
                 if (dig1 > 9) dig1 = 0;
                 //*==========================================*
-                //|        Segundo digito veridicador        |
+                //|        Segundo digito verificador        |
                 //*==========================================*
                 soma2 = ((numero[1] * 6) +
                       (numero[2] * 5) +
@@ -233,7 +233,7 @@ namespace Gerador_de_CNPJ
                 numero[11] = 0;
                 numero[12] = (rand.Next()) % 9;
                 //*==========================================*
-                //|       Primeiro digito veridicador        |
+                //|       Primeiro digito verificador        |
                 //*==========================================*
                 soma1 = ((numero[1] * 5) +
                       (numero[2] * 4) +
@@ -253,7 +253,7 @@ namespace Gerador_de_CNPJ
                 dig1 = (11 - parte3);
                 if (dig1 > 9) dig1 = 0;
                 //*==========================================*
-                //|        Segundo digito veridicador        |
+                //|        Segundo digito verificador        |
                 //*==========================================*
                 soma2 = ((numero[1] * 6) +
                       (numero[2] * 5) +
@@ -287,6 +287,5 @@ namespace Gerador_de_CNPJ
             }
             return result;
         }
-
     }
 }
